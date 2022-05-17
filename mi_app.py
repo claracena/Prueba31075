@@ -23,7 +23,7 @@ class Empleado:
     def puesto(self, puesto: str, lang: list, nivel: list) -> str:
         result = ''
         result += f'{puesto}\n'
-        for l, n in zip(lang, nivel):
+        for l, n in zip(lang, nivel): 
             result += f'Lenguaje: {l} - Nivel: {n}\n'
         return result.rstrip('\n')
 
