@@ -3,7 +3,7 @@ from datetime import date
 from tkinter.filedialog import SaveAs
 
 # Import de modulos
-# import calculo_horas
+import calculo_horas
 
 # Declaracion de algunas clases y funciones
 class Empleado:
@@ -50,13 +50,8 @@ def main():
     print(f'Apellido: {apellido.capitalize()}')
     print(f'Fecha de Nac.: {dob} ({edad} años)')
     print(f'Puesto: {puesto}')
-    # print(f'Horas trabajadas por semana: {calculo_horas.calc(8.7, 4)}')
+    print(f'Horas trabajadas por semana: {calculo_horas.calc(8.7, 4)}')
     print(f'Salario: ARS$ {salario:,}')
 
 if __name__ == '__main__':
     main()
-
-
-
-
-# Comentario nuevo
